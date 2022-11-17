@@ -1,0 +1,32 @@
+Button{
+    border:none;
+    background-color: hwb(186 20% 29% / 0.885);
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: 11px 9px 5px -6px rgba(0,0,0,0.8);
+    -webkit-box-shadow: 11px 9px 5px -6px rgba(0,0,0,0.8);
+    -moz-box-shadow: 11px 9px 5px -6px rgba(0,0,0,0.8);
+
+  }
+  
+  Button:hover {
+    background-color: rgb(63, 41, 206);
+  }
+  Button:active {
+    position:relative;
+    top:2.75px;
+  }
+  
+  .equals {
+    grid-column: 3 / 5;
+    background-color: rgb(243, 93, 29);
+  }
+  
+  .equals:hover {
+    background-color: rgb(228, 39, 15);
+  }
+  
